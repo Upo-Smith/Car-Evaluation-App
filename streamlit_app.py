@@ -56,9 +56,8 @@ with tab2:
 
 with tab3:
     treeClf = pickle.load(open('treeClf.pkl', 'rb'))
-    nbClf = pickle.load(open('nbClf.pkl', 'rb'))
 
-    st.write("Menggunakan Model Decision Tree (97%), maka hasil prediksi dari data tersebut:")
+    st.write("Menggunakan Model Decision Tree (99%), maka hasil prediksi dari data tersebut:")
     
     type = np.array(['Tidak dapat diterima', 'Dapat diterima', 'Bagus', 'Sangat Bagus'])
 
